@@ -466,6 +466,15 @@ public final class io/outfoxx/swiftpoet/ImportSpec$Companion {
 	public final fun builder (Ljava/lang/String;)Lio/outfoxx/swiftpoet/ImportSpec$Builder;
 }
 
+public final class io/outfoxx/swiftpoet/KotlinTypeName : io/outfoxx/swiftpoet/TypeName, java/lang/Comparable {
+	public fun compareTo (Lio/outfoxx/swiftpoet/KotlinTypeName;)I
+	public synthetic fun compareTo (Ljava/lang/Object;)I
+	public final fun getAlwaysQualify ()Z
+	public final fun getCanonicalName ()Ljava/lang/String;
+	public final fun getImportPackage ()Ljava/lang/String;
+	public final fun getShortClassName ()Ljava/lang/String;
+}
+
 public final class io/outfoxx/swiftpoet/Modifier : java/lang/Enum {
 	public static final field CLASS Lio/outfoxx/swiftpoet/Modifier;
 	public static final field CONVENIENCE Lio/outfoxx/swiftpoet/Modifier;

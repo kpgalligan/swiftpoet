@@ -11,7 +11,6 @@ plugins {
   id("org.jetbrains.dokka") version "1.7.20"
 
   id("org.cadixdev.licenser") version "0.6.1"
-  id("org.jmailen.kotlinter") version "3.6.0"
 
   id("com.github.breadmoirai.github-release") version "2.4.1"
   id("io.github.gradle-nexus.publish-plugin") version "1.3.0"
@@ -124,9 +123,6 @@ tasks {
 // CHECKS
 //
 
-kotlinter {
-  indentSize = 2
-}
 
 license {
   header.set(resources.text.fromFile("HEADER.txt"))
